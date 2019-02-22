@@ -7,6 +7,10 @@ OpenLDAP is a free, open-source implementation of the Lightweight Directory Acce
 https://www.openldap.org/
 https://www.openldap.org/doc/admin22/intro.html
 
+For installation of OpenLDAP please refer this script.
+It includes procedure for installing and adding users into oraganizations in OpenLDAP.
+
+https://github.com/PradeepTammali/Python/blob/master/OpenLDAP/LDAP_installation.sh
 
 centos ldap installation steps 
 please follow the following link for installation 
