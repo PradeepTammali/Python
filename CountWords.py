@@ -1,5 +1,6 @@
 from collections import Counter
 
+# Reading file 
 f = open('data.txt','r')
 data = f.read()
 

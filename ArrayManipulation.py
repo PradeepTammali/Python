@@ -10,6 +10,7 @@ import sys
 
 
 def arrayManipulation(n, queries):
+    # Initializing the array with n length.
     arr = [0] * n
     for value in queries:
         for index in range(value[0]-1, value[1]):
