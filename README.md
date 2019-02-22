@@ -13,8 +13,7 @@ It includes procedure for installing and adding users into oraganizations in Ope
 
 https://github.com/PradeepTammali/Python/blob/master/OpenLDAP/LDAP_installation.sh
 
-centos ldap installation steps 
-please follow the following link for installation 
+Please follow the following link for Centos ldap installation steps 
 
 http://docs.adaptivecomputing.com/viewpoint/hpc/Content/topics/1-setup/installSetup/settingUpOpenLDAPOnCentos6.htm
 
