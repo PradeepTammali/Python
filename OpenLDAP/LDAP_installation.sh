@@ -98,7 +98,26 @@ ldapsearch -x -b 'dc=ldapdomain,dc=com' '(objectclass=*)'
 # You are now ready to add more entries using ldapadd(1) or another LDAP client, experiment with various configuration options, backend arrangements, etc..
 
 
-# refer this sites
+**************************************************************
+
+# Error:
+if you encounter this error in ldap installation.
+
+ldap_sasl_bind(SIMPLE): Can't contact LDAP server (-1) 
+
+# solution:
+edit the configuration file in /etc/ldap/ldap.conf 
+and set URI to ldap://127.0.0.1/
+and then restart the ldap service using this command 
+serivce slapd restart 
+
+# reference:
+https://www.clearos.com/clearfoundation/social/community/ldap-sasl-bind-simple-can-t-contact-ldap-server-1
+
+******************************************************************
+
+
+# refer this sites for more information
 
 # https://www.server-world.info/en/note?os=CentOS_7&p=openldap&f=7
 # https://www.unixmen.com/install-openldap-in-ubuntu-15-10-and-debian-8/
